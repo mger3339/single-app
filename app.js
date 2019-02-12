@@ -3,6 +3,7 @@ import Router from "./router.js";
     try {
         Router.init();
     } catch (e) {
+        console.error(e);
         alert("Ошибка: " + e.message);
     }
 })();

@@ -12,5 +12,6 @@ module.exports = {
         "indent": ["error", 4],
         "linebreak-style": ["error", "windows"],
         "semi": ["error", "always"],
+        "no-console": 0,
     }
 };
