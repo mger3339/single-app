@@ -1,0 +1,26 @@
+{
+  "name": "wheater",
+  "version": "1.0.0",
+  "description": "Whater app",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mger3339/single-app.git"
+  },
+  "author": "Mher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mger3339/single-app/issues"
+  },
+  "homepage": "https://github.com/mger3339/single-app#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
