@@ -1,3 +1,3 @@
 1. Clone Project
-2. Install node-server (npm install -g http-server)
-3. Run server http:server
+2. Run "npm i"
+3. Run "npm run dev"
