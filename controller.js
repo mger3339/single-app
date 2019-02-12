@@ -15,4 +15,4 @@ export default {
         let user =  await Model.user(id);
         View.render('user', user, 'results');
     }
-}
+};

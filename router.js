@@ -4,7 +4,7 @@ function getRouteInfo() {
     const hash = location.hash ? location.hash.slice(1) : '';
     const [name, id] = hash.split('/');
 
-    return { name, params: { id } }
+    return { name, params: { id } };
 }
 
 function handleHash() {
@@ -33,4 +33,4 @@ export default {
         addEventListener('hashchange', handleHash);
         handleHash();
     }
-}
+};

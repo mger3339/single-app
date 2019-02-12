@@ -1,4 +1,4 @@
-import Config from './config.js'
+import Config from './config.js';
 
 export default {
     async callApi(method) {
@@ -14,4 +14,4 @@ export default {
     user(id) {
         return this.callApi(`https://api.github.com/users/${id}?client_id=${Config.clientId}&client_secret=${Config.clientSecret}`);
     }
-}
+};

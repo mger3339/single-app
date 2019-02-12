@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/mger3339/single-app#readme",
   "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-loader": "^2.1.2",
     "path": "^0.12.7",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
